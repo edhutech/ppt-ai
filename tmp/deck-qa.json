@@ -1,0 +1,349 @@
+{
+  "slides": [
+    {
+      "slide": 1,
+      "theme": "dark",
+      "surface": "primary",
+      "overflow": [],
+      "footerOverlap": [],
+      "textOutside": [],
+      "builds": 0,
+      "visibleBuilds": 0,
+      "canvas": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "slide": 2,
+      "theme": "light",
+      "surface": "primary",
+      "overflow": [],
+      "footerOverlap": [],
+      "textOutside": [],
+      "builds": 4,
+      "visibleBuilds": 4,
+      "canvas": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "slide": 3,
+      "theme": "light",
+      "surface": "primary",
+      "overflow": [],
+      "footerOverlap": [],
+      "textOutside": [],
+      "builds": 4,
+      "visibleBuilds": 4,
+      "canvas": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "slide": 4,
+      "theme": "dark",
+      "surface": "primary",
+      "overflow": [],
+      "footerOverlap": [],
+      "textOutside": [],
+      "builds": 0,
+      "visibleBuilds": 0,
+      "canvas": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "slide": 5,
+      "theme": "light",
+      "surface": "primary",
+      "overflow": [],
+      "footerOverlap": [],
+      "textOutside": [],
+      "builds": 5,
+      "visibleBuilds": 5,
+      "canvas": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "slide": 6,
+      "theme": "light",
+      "surface": "secondary",
+      "overflow": [],
+      "footerOverlap": [],
+      "textOutside": [],
+      "builds": 3,
+      "visibleBuilds": 3,
+      "canvas": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "slide": 7,
+      "theme": "light",
+      "surface": "primary",
+      "overflow": [],
+      "footerOverlap": [],
+      "textOutside": [],
+      "builds": 1,
+      "visibleBuilds": 1,
+      "canvas": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "slide": 8,
+      "theme": "dark",
+      "surface": "primary",
+      "overflow": [],
+      "footerOverlap": [],
+      "textOutside": [],
+      "builds": 5,
+      "visibleBuilds": 5,
+      "canvas": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "slide": 9,
+      "theme": "light",
+      "surface": "primary",
+      "overflow": [],
+      "footerOverlap": [],
+      "textOutside": [],
+      "builds": 4,
+      "visibleBuilds": 4,
+      "canvas": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "slide": 10,
+      "theme": "light",
+      "surface": "secondary",
+      "overflow": [],
+      "footerOverlap": [],
+      "textOutside": [],
+      "builds": 9,
+      "visibleBuilds": 9,
+      "canvas": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "slide": 11,
+      "theme": "light",
+      "surface": "primary",
+      "overflow": [],
+      "footerOverlap": [],
+      "textOutside": [],
+      "builds": 13,
+      "visibleBuilds": 12,
+      "canvas": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "slide": 12,
+      "theme": "dark",
+      "surface": "primary",
+      "overflow": [],
+      "footerOverlap": [],
+      "textOutside": [],
+      "builds": 5,
+      "visibleBuilds": 5,
+      "canvas": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "slide": 13,
+      "theme": "light",
+      "surface": "secondary",
+      "overflow": [],
+      "footerOverlap": [],
+      "textOutside": [],
+      "builds": 7,
+      "visibleBuilds": 7,
+      "canvas": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "slide": 14,
+      "theme": "light",
+      "surface": "contrast",
+      "overflow": [],
+      "footerOverlap": [],
+      "textOutside": [],
+      "builds": 2,
+      "visibleBuilds": 2,
+      "canvas": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "slide": 15,
+      "theme": "light",
+      "surface": "primary",
+      "overflow": [],
+      "footerOverlap": [],
+      "textOutside": [],
+      "builds": 3,
+      "visibleBuilds": 3,
+      "canvas": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "slide": 16,
+      "theme": "dark",
+      "surface": "primary",
+      "overflow": [],
+      "footerOverlap": [],
+      "textOutside": [],
+      "builds": 4,
+      "visibleBuilds": 4,
+      "canvas": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "slide": 17,
+      "theme": "light",
+      "surface": "secondary",
+      "overflow": [],
+      "footerOverlap": [],
+      "textOutside": [],
+      "builds": 8,
+      "visibleBuilds": 8,
+      "canvas": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "slide": 18,
+      "theme": "light",
+      "surface": "secondary",
+      "overflow": [],
+      "footerOverlap": [],
+      "textOutside": [],
+      "builds": 3,
+      "visibleBuilds": 3,
+      "canvas": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "slide": 19,
+      "theme": "dark",
+      "surface": "primary",
+      "overflow": [],
+      "footerOverlap": [],
+      "textOutside": [],
+      "builds": 6,
+      "visibleBuilds": 6,
+      "canvas": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "slide": 20,
+      "theme": "light",
+      "surface": "secondary",
+      "overflow": [],
+      "footerOverlap": [],
+      "textOutside": [],
+      "builds": 4,
+      "visibleBuilds": 4,
+      "canvas": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "slide": 21,
+      "theme": "light",
+      "surface": "secondary",
+      "overflow": [],
+      "footerOverlap": [],
+      "textOutside": [],
+      "builds": 4,
+      "visibleBuilds": 4,
+      "canvas": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "slide": 22,
+      "theme": "light",
+      "surface": "contrast",
+      "overflow": [],
+      "footerOverlap": [],
+      "textOutside": [],
+      "builds": 6,
+      "visibleBuilds": 6,
+      "canvas": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "slide": 23,
+      "theme": "dark",
+      "surface": "primary",
+      "overflow": [],
+      "footerOverlap": [],
+      "textOutside": [],
+      "builds": 5,
+      "visibleBuilds": 5,
+      "canvas": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "slide": 24,
+      "theme": "dark",
+      "surface": "primary",
+      "overflow": [],
+      "footerOverlap": [],
+      "textOutside": [],
+      "builds": 0,
+      "visibleBuilds": 0,
+      "canvas": {
+        "width": 1920,
+        "height": 1080
+      }
+    }
+  ],
+  "copyErrors": [],
+  "responsiveErrors": [],
+  "jsErrors": [],
+  "externalRequests": [],
+  "navigation": "arrows, space, PageUp/PageDown, Home/End, buttons, boundaries and swipe passed",
+  "animation": "progressive reveal and prefers-reduced-motion passed",
+  "noJS": "24 slides visible without JavaScript",
+  "fonts": "Space Grotesk, Inter Tight and Geist Mono loaded locally from embedded data",
+  "protectedInputsUnchanged": true
+}

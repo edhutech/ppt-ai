@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "skills": {
+    "html-slides": {
+      "source": "proyecto26/slides-ai-plugin",
+      "sourceType": "github",
+      "skillPath": "skills/html-slides/SKILL.md",
+      "computedHash": "095df4588755ef76268ded1897f55b5ccddbbe80837f0a98ceaa0ffcfdf2a7ca"
+    },
+    "pptx-slides": {
+      "source": "proyecto26/slides-ai-plugin",
+      "sourceType": "github",
+      "skillPath": "skills/pptx-slides/SKILL.md",
+      "computedHash": "4e271540ab6f43e2dbe50a602dd309eb08e0b58bc7d11a7178d02e67f6dda145"
+    }
+  }
+}
