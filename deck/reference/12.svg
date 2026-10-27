@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" width="1152" height="648" viewBox="0 0 1152 648">
+<defs>
+<clipPath id="p12_clip_1">
+<path transform="matrix(.24,0,0,.24,0,0)" d="M0 0H4800V2700H0Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="p12_clip_2">
+<path transform="matrix(.24,0,0,.24,0,0)" d="M0 0H4800V2700H0Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="p12_clip_3">
+<path transform="matrix(.24,0,0,.24,0,0)" d="M0 0H4800V2700H0Z" clip-rule="evenodd"/>
+</clipPath>
+</defs>
+<path transform="matrix(.75,0,0,.75,0,0)" d="M0 0H1536V864H0Z"/>
+<g clip-path="url(#p12_clip_1)">
+<path transform="matrix(.75,0,0,.75,0,-7128)" d="M0 9504H1536V10368H0Z"/>
+<path transform="matrix(.75,0,0,.75,0,-7128)" d="M0 9504H1536V10368H0Z"/>
+</g>
+<g clip-path="url(#p12_clip_2)">
+<path transform="matrix(.75,0,0,.75,0,-7128)" d="M0 9504H1536V10368H0Z"/>
+</g>
+<g clip-path="url(#p12_clip_3)">
+
+
+
+
+
+<path transform="matrix(.75,0,0,.75,0,-7128)" d="M77 9903H398V9904H77Z" fill="#1a1a1f"/>
+
+
+<path transform="matrix(.75,0,0,.75,0,-7128)" d="M430 9903H752V9904H430Z" fill="#1a1a1f"/>
+
+
+<path transform="matrix(.75,0,0,.75,0,-7128)" d="M784 9903H1106V9904H784Z" fill="#1a1a1f"/>
+
+<path transform="matrix(.75,0,0,.75,0,-7128)" d="M1138 9903H1459V9904H1138Z" fill="#1a1a1f"/>
+
+
+
+
+<path transform="matrix(.75,0,0,.75,0,-7128)" d="M77 9632H88V9636H77Z" fill="#ffffff"/>
+<path transform="matrix(.75,0,0,.75,0,-7128)" d="M77 9658H88V9662H77Z" fill="#ffffff"/>
+<path transform="matrix(.75,0,0,.75,0,-7128)" d="M77 9632H81V9662H77Z" fill="#ffffff"/>
+<path transform="matrix(.75,0,0,.75,0,-7128)" d="M468 9632H479V9636H468Z" fill="#ffffff"/>
+<path transform="matrix(.75,0,0,.75,0,-7128)" d="M468 9658H479V9662H468Z" fill="#ffffff"/>
+<path transform="matrix(.75,0,0,.75,0,-7128)" d="M475 9632H479V9662H475Z" fill="#ffffff"/>
+
+<path transform="matrix(.75,0,0,.75,0,-7128)" d="M173 10076H184V10080H173Z" fill="#ceff5f"/>
+<path transform="matrix(.75,0,0,.75,0,-7128)" d="M173 10103H184V10107H173Z" fill="#ceff5f"/>
+<path transform="matrix(.75,0,0,.75,0,-7128)" d="M173 10076H177V10107H173Z" fill="#ceff5f"/>
+<path transform="matrix(.75,0,0,.75,0,-7128)" d="M495 10076H506V10080H495Z" fill="#ceff5f"/>
+<path transform="matrix(.75,0,0,.75,0,-7128)" d="M495 10103H506V10107H495Z" fill="#ceff5f"/>
+<path transform="matrix(.75,0,0,.75,0,-7128)" d="M502 10076H506V10107H502Z" fill="#ceff5f"/>
+
+<path transform="matrix(.75,0,0,.75,0,-7128)" d="M523 10076H535V10080H523Z" fill="#ceff5f"/>
+<path transform="matrix(.75,0,0,.75,0,-7128)" d="M523 10103H535V10107H523Z" fill="#ceff5f"/>
+<path transform="matrix(.75,0,0,.75,0,-7128)" d="M523 10076H527V10107H523Z" fill="#ceff5f"/>
+<path transform="matrix(.75,0,0,.75,0,-7128)" d="M857 10076H868V10080H857Z" fill="#ceff5f"/>
+<path transform="matrix(.75,0,0,.75,0,-7128)" d="M857 10103H868V10107H857Z" fill="#ceff5f"/>
+<path transform="matrix(.75,0,0,.75,0,-7128)" d="M864 10076H868V10107H864Z" fill="#ceff5f"/>
+
+<path transform="matrix(.75,0,0,.75,0,-7128)" d="M885 10076H897V10080H885Z" fill="#ceff5f"/>
+<path transform="matrix(.75,0,0,.75,0,-7128)" d="M885 10103H897V10107H885Z" fill="#ceff5f"/>
+<path transform="matrix(.75,0,0,.75,0,-7128)" d="M885 10076H889V10107H885Z" fill="#ceff5f"/>
+<path transform="matrix(.75,0,0,.75,0,-7128)" d="M1023 10076H1034V10080H1023Z" fill="#ceff5f"/>
+<path transform="matrix(.75,0,0,.75,0,-7128)" d="M1023 10103H1034V10107H1023Z" fill="#ceff5f"/>
+<path transform="matrix(.75,0,0,.75,0,-7128)" d="M1030 10076H1034V10107H1030Z" fill="#ceff5f"/>
+<path transform="matrix(.75,0,0,.75,0,-7128)" d="M77 10180H1459V10181H77Z" fill="#1a1a1f"/>
+
+
+
+
+<path transform="matrix(.75,0,0,.75,0,-7128)" d="M1344 10315H1459V10318H1344Z" fill="#8e8eff"/>
+</g>
+</svg>

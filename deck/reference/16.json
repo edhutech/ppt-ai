@@ -1,0 +1,82 @@
+[
+  {
+    "text": "16 / 16",
+    "font": "GeistMono-Regular",
+    "size": 13.200000762939453,
+    "color": 13092812,
+    "origin": [
+      1038.9609375,
+      48.0
+    ],
+    "bbox": [
+      1038.9609375,
+      34.73400115966797,
+      1094.4012451171875,
+      51.88079833984375
+    ]
+  },
+  {
+    "text": "Seguimos construyendo.",
+    "font": "SpaceGrotesk-SemiBold",
+    "size": 84.0,
+    "color": 16777215,
+    "origin": [
+      57.59765625,
+      381.75
+    ],
+    "bbox": [
+      57.59765625,
+      299.1780090332031,
+      1011.5016479492188,
+      406.27801513671875
+    ]
+  },
+  {
+    "text": "Una organización que aprende, investiga, experimenta y",
+    "font": "InterTight-Regular",
+    "size": 24.0,
+    "color": 13092812,
+    "origin": [
+      57.59765625,
+      444.75
+    ],
+    "bbox": [
+      57.59765625,
+      421.5,
+      632.7498168945312,
+      450.5390625
+    ]
+  },
+  {
+    "text": "construye alrededor de la inteligencia artificial.",
+    "font": "InterTight-Regular",
+    "size": 24.0,
+    "color": 13092812,
+    "origin": [
+      57.59765625,
+      480.75
+    ],
+    "bbox": [
+      57.59765625,
+      457.5,
+      529.9527587890625,
+      486.5390625
+    ]
+  },
+  {
+    "text": "AI PLAYGROUNDS",
+    "font": "GeistMono-Regular",
+    "size": 13.200000762939453,
+    "color": 13092812,
+    "origin": [
+      57.59765625,
+      613.5
+    ],
+    "bbox": [
+      57.59765625,
+      600.2340087890625,
+      168.47763061523438,
+      617.3807983398438
+    ]
+  }
+]

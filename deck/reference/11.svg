@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" width="1152" height="648" viewBox="0 0 1152 648">
+<defs>
+<clipPath id="p11_clip_1">
+<path transform="matrix(.24,0,0,.24,0,0)" d="M0 0H4800V2700H0Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="p11_clip_2">
+<path transform="matrix(.24,0,0,.24,0,0)" d="M0 0H4800V2700H0Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="p11_clip_3">
+<path transform="matrix(.24,0,0,.24,0,0)" d="M0 0H4800V2700H0Z" clip-rule="evenodd"/>
+</clipPath>
+</defs>
+<path transform="matrix(.75,0,0,.75,0,0)" d="M0 0H1536V864H0Z"/>
+<g clip-path="url(#p11_clip_1)">
+<path transform="matrix(.75,0,0,.75,0,-6480)" d="M0 8640H1536V9504H0Z"/>
+<path transform="matrix(.75,0,0,.75,0,-6480)" d="M0 8640H1536V9504H0Z"/>
+</g>
+<g clip-path="url(#p11_clip_2)">
+<path transform="matrix(.75,0,0,.75,0,-6480)" d="M0 8640H1536V9504H0Z" fill="#e3e2da"/>
+</g>
+<g clip-path="url(#p11_clip_3)">
+
+
+
+
+
+
+
+<path transform="matrix(.75,0,0,.75,0,-6480)" d="M860 8833H862V9336H860Z"/>
+
+
+
+
+
+
+<path transform="matrix(.75,0,0,.75,0,-6480)" d="M910 9158H1072V9159H910Z" fill="#cecec4"/>
+
+
+<path transform="matrix(.75,0,0,.75,0,-6480)" d="M1104 9158H1266V9159H1104Z" fill="#cecec4"/>
+
+
+<path transform="matrix(.75,0,0,.75,0,-6480)" d="M1298 9158H1459V9159H1298Z" fill="#cecec4"/>
+
+
+
+
+<path transform="matrix(.75,0,0,.75,0,-6480)" d="M77 8894H88V8898H77Z" fill="#191a18"/>
+<path transform="matrix(.75,0,0,.75,0,-6480)" d="M77 8920H88V8924H77Z" fill="#191a18"/>
+<path transform="matrix(.75,0,0,.75,0,-6480)" d="M77 8894H81V8924H77Z" fill="#191a18"/>
+<path transform="matrix(.75,0,0,.75,0,-6480)" d="M283 8894H294V8898H283Z" fill="#191a18"/>
+<path transform="matrix(.75,0,0,.75,0,-6480)" d="M283 8920H294V8924H283Z" fill="#191a18"/>
+<path transform="matrix(.75,0,0,.75,0,-6480)" d="M290 8894H294V8924H290Z" fill="#191a18"/>
+
+<path transform="matrix(.75,0,0,.75,0,-6480)" d="M1344 9451H1459V9454H1344Z" fill="#8e8eff"/>
+</g>
+</svg>

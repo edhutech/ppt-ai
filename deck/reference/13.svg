@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" width="1152" height="648" viewBox="0 0 1152 648">
+<defs>
+<clipPath id="p13_clip_1">
+<path transform="matrix(.24,0,0,.24,0,0)" d="M0 0H4800V2700H0Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="p13_clip_2">
+<path transform="matrix(.24,0,0,.24,0,0)" d="M0 0H4800V2700H0Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="p13_clip_3">
+<path transform="matrix(.24,0,0,.24,0,0)" d="M0 0H4800V2700H0Z" clip-rule="evenodd"/>
+</clipPath>
+</defs>
+<path transform="matrix(.75,0,0,.75,0,0)" d="M0 0H1536V864H0Z"/>
+<g clip-path="url(#p13_clip_1)">
+<path transform="matrix(.75,0,0,.75,0,-7776)" d="M0 10368H1536V11232H0Z"/>
+<path transform="matrix(.75,0,0,.75,0,-7776)" d="M0 10368H1536V11232H0Z"/>
+</g>
+<g clip-path="url(#p13_clip_2)">
+<path transform="matrix(.75,0,0,.75,0,-7776)" d="M0 10368H1536V11232H0Z"/>
+</g>
+<g clip-path="url(#p13_clip_3)">
+
+
+
+
+
+<path transform="matrix(.75,0,0,.75,0,-7776)" d="M77 10790H386V10791H77Z" fill="#1a1a1f"/>
+
+
+<path transform="matrix(.75,0,0,.75,0,-7776)" d="M418 10790H728V10791H418Z" fill="#1a1a1f"/>
+
+
+<path transform="matrix(.75,0,0,.75,0,-7776)" d="M77 10907H386V10908H77Z" fill="#1a1a1f"/>
+
+
+<path transform="matrix(.75,0,0,.75,0,-7776)" d="M418 10907H728V10908H418Z" fill="#1a1a1f"/>
+
+
+
+
+
+
+
+<path transform="matrix(.75,0,0,.75,0,-7776)" d="M808 10790H1118V10791H808Z" fill="#1a1a1f"/>
+
+
+<path transform="matrix(.75,0,0,.75,0,-7776)" d="M1150 10790H1459V10791H1150Z" fill="#1a1a1f"/>
+
+
+
+
+
+
+<path transform="matrix(.75,0,0,.75,0,-7776)" d="M77 10496H88V10500H77Z" fill="#ffffff"/>
+<path transform="matrix(.75,0,0,.75,0,-7776)" d="M77 10522H88V10526H77Z" fill="#ffffff"/>
+<path transform="matrix(.75,0,0,.75,0,-7776)" d="M77 10496H81V10526H77Z" fill="#ffffff"/>
+<path transform="matrix(.75,0,0,.75,0,-7776)" d="M260 10496H271V10500H260Z" fill="#ffffff"/>
+<path transform="matrix(.75,0,0,.75,0,-7776)" d="M260 10522H271V10526H260Z" fill="#ffffff"/>
+<path transform="matrix(.75,0,0,.75,0,-7776)" d="M267 10496H271V10526H267Z" fill="#ffffff"/>
+
+<path transform="matrix(.75,0,0,.75,0,-7776)" d="M1344 11179H1459V11182H1344Z" fill="#8e8eff"/>
+</g>
+</svg>

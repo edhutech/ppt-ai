@@ -1,0 +1,19 @@
+{
+  "slides": 19,
+  "pdf_pages": 19,
+  "pdf_selectable": true,
+  "js_errors": [],
+  "external_requests": [],
+  "text_outside": [],
+  "new_slide_overlaps": [],
+  "pdf_copy_errors": [],
+  "viewports": [
+    "1920x1080",
+    "1366x768",
+    "1280x720"
+  ],
+  "navigation": "arrows, space, PageUp/PageDown, Home/End and bounds passed",
+  "fullscreen": "entered and exited in headless Chromium",
+  "motion": "reduced-motion enabled; no hidden entrance animations",
+  "no_javascript": "19 slides and closing text present"
+}
