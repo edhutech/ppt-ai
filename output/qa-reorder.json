@@ -1,161 +1,216 @@
 {
-  "baseline": "cb8387a",
+  "baseline": "11edd4c",
   "resolution": "1920x1080",
-  "counter_mask": "x=1700..1850, y=30..110",
+  "masked": "contador, pie; métrica en 04 y etiquetas de modalidad en 17–18",
   "slides": [
     {
       "slide": 1,
       "previous_slide": 1,
-      "full_difference_bbox": null,
-      "pixels_different_outside_counter": 0
+      "full_difference_bbox": [
+        96,
+        65,
+        1824,
+        1027
+      ],
+      "pixels_different_outside_expected_changes": 0
     },
     {
       "slide": 2,
       "previous_slide": 2,
-      "full_difference_bbox": null,
-      "pixels_different_outside_counter": 0
+      "full_difference_bbox": [
+        96,
+        65,
+        1824,
+        1027
+      ],
+      "pixels_different_outside_expected_changes": 0
     },
     {
       "slide": 3,
       "previous_slide": 3,
-      "full_difference_bbox": null,
-      "pixels_different_outside_counter": 0
+      "full_difference_bbox": [
+        96,
+        65,
+        1824,
+        1027
+      ],
+      "pixels_different_outside_expected_changes": 0
     },
     {
       "slide": 4,
       "previous_slide": 4,
-      "full_difference_bbox": null,
-      "pixels_different_outside_counter": 0
+      "full_difference_bbox": [
+        96,
+        65,
+        1824,
+        1027
+      ],
+      "pixels_different_outside_expected_changes": 0
     },
     {
       "slide": 5,
       "previous_slide": 5,
-      "full_difference_bbox": null,
-      "pixels_different_outside_counter": 0
+      "full_difference_bbox": [
+        1797,
+        62,
+        1823,
+        78
+      ],
+      "pixels_different_outside_expected_changes": 0
     },
     {
       "slide": 6,
       "previous_slide": 6,
-      "full_difference_bbox": null,
-      "pixels_different_outside_counter": 0
+      "full_difference_bbox": [
+        96,
+        65,
+        1824,
+        1027
+      ],
+      "pixels_different_outside_expected_changes": 0
     },
     {
       "slide": 7,
       "previous_slide": 7,
-      "full_difference_bbox": null,
-      "pixels_different_outside_counter": 0
+      "full_difference_bbox": [
+        96,
+        65,
+        1824,
+        1027
+      ],
+      "pixels_different_outside_expected_changes": 0
     },
     {
       "slide": 8,
       "previous_slide": 8,
       "full_difference_bbox": [
-        160,
-        532,
-        184,
-        533
+        97,
+        65,
+        1824,
+        1024
       ],
-      "pixels_different_outside_counter": 9
-    },
-    {
-      "slide": 9,
-      "previous_slide": 9,
-      "full_difference_bbox": null,
-      "pixels_different_outside_counter": 0
+      "pixels_different_outside_expected_changes": 9
     },
     {
       "slide": 10,
-      "previous_slide": 10,
-      "full_difference_bbox": null,
-      "pixels_different_outside_counter": 0
-    },
-    {
-      "slide": 11,
-      "previous_slide": 11,
-      "full_difference_bbox": null,
-      "pixels_different_outside_counter": 0
+      "previous_slide": 9,
+      "full_difference_bbox": [
+        107,
+        62,
+        1823,
+        1023
+      ],
+      "pixels_different_outside_expected_changes": 0
     },
     {
       "slide": 12,
+      "previous_slide": 10,
+      "full_difference_bbox": [
+        97,
+        65,
+        1824,
+        1024
+      ],
+      "pixels_different_outside_expected_changes": 574
+    },
+    {
+      "slide": 13,
+      "previous_slide": 11,
+      "full_difference_bbox": [
+        97,
+        65,
+        1824,
+        1024
+      ],
+      "pixels_different_outside_expected_changes": 0
+    },
+    {
+      "slide": 14,
+      "previous_slide": 12,
+      "full_difference_bbox": [
+        1745,
+        62,
+        1823,
+        78
+      ],
+      "pixels_different_outside_expected_changes": 0
+    },
+    {
+      "slide": 15,
       "previous_slide": 13,
       "full_difference_bbox": [
         1745,
         62,
-        1758,
+        1823,
         78
       ],
-      "pixels_different_outside_counter": 0
+      "pixels_different_outside_expected_changes": 0
     },
     {
-      "slide": 13,
+      "slide": 16,
       "previous_slide": 14,
       "full_difference_bbox": [
         1745,
         62,
-        1759,
+        1823,
         78
       ],
-      "pixels_different_outside_counter": 0
+      "pixels_different_outside_expected_changes": 0
     },
     {
-      "slide": 14,
+      "slide": 17,
       "previous_slide": 15,
       "full_difference_bbox": [
-        1745,
+        367,
         62,
-        1759,
-        78
+        1823,
+        188
       ],
-      "pixels_different_outside_counter": 0
+      "pixels_different_outside_expected_changes": 0
     },
     {
-      "slide": 15,
+      "slide": 18,
       "previous_slide": 16,
       "full_difference_bbox": [
-        1745,
+        368,
         62,
-        1758,
-        78
+        1823,
+        188
       ],
-      "pixels_different_outside_counter": 0
+      "pixels_different_outside_expected_changes": 0
     },
     {
-      "slide": 16,
+      "slide": 19,
       "previous_slide": 17,
       "full_difference_bbox": [
         1745,
         62,
-        1758,
+        1823,
         78
       ],
-      "pixels_different_outside_counter": 0
+      "pixels_different_outside_expected_changes": 0
     },
     {
-      "slide": 17,
+      "slide": 21,
       "previous_slide": 18,
       "full_difference_bbox": [
-        1745,
-        62,
-        1758,
-        78
+        96,
+        65,
+        1824,
+        1027
       ],
-      "pixels_different_outside_counter": 0
+      "pixels_different_outside_expected_changes": 0
     },
     {
-      "slide": 18,
-      "previous_slide": 12,
+      "slide": 22,
+      "previous_slide": 19,
       "full_difference_bbox": [
-        1745,
+        1732,
         65,
-        1758,
+        1824,
         81
       ],
-      "pixels_different_outside_counter": 0
-    },
-    {
-      "slide": 19,
-      "previous_slide": 19,
-      "full_difference_bbox": null,
-      "pixels_different_outside_counter": 0
+      "pixels_different_outside_expected_changes": 0
     }
   ]
 }

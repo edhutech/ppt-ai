@@ -1,4 +1,4 @@
-"""Build the nineteen-slide, self-contained presentation from editable sources."""
+"""Build the twenty-two-slide, self-contained presentation from editable sources."""
 from pathlib import Path
 import html
 import json
@@ -6,6 +6,7 @@ import re
 
 ROOT = Path(__file__).resolve().parents[1]
 REF = ROOT / 'deck/reference'
+TOTAL = 22
 
 
 def recovered(n, final_number):
@@ -14,8 +15,12 @@ def recovered(n, final_number):
     out = []
     for s in spans:
         text = s['text']
+        if n == 4 and text in {'+30', 'eventos organizados desde', '2025'}:
+            continue
         if re.fullmatch(r'\d\d / 16', text):
-            text = f'{final_number:02} / 19'
+            text = f'{final_number:02} / {TOTAL}'
+        if n != 16 and s['origin'][1] > 590 and text in {'QUIÉNES SOMOS', 'DÓNDE PROFUNDIZAMOS', 'LO QUE HEMOS HECHO'}:
+            text = 'IDENTIDAD Y TRAYECTORIA' if final_number <= 5 else 'DIRECCIÓN Y VERTICALES' if final_number <= 10 else 'INICIATIVAS' if final_number <= 13 else 'EQUIPO'
         if n == 2:
             text = {'Quiénes somos': 'Identidad y trayectoria', 'Dónde profundizamos': 'Dirección y verticales', 'Lo que hemos hecho': 'Organización e iniciativas', 'Cómo participar': 'Personas y participación'}.get(text, text)
         if n == 11:
@@ -26,16 +31,16 @@ def recovered(n, final_number):
         weight = 600 if 'SemiBold' in s['font'] else 500 if 'Medium' in s['font'] else 400
         x, y = s['origin']
         width = s['bbox'][2] - s['bbox'][0]
-        changed = text != s['text'] and not re.fullmatch(r'\d\d / 19',text)
+        changed = text != s['text'] and not re.fullmatch(r'\d\d / 22',text)
         fit = '' if changed else f'data-width="{width:.3f}"'
         out.append(f'<span class="pdf-text" {fit} style="left:{x:.3f}px;top:{y:.3f}px;font-family:\'{family}\';font-weight:{weight};font-size:{s["size"]:.3f}px;color:#{s["color"]:06x}">{html.escape(text)}</span>')
     return '<section class="canvas recovered">' + svg + ''.join(out) + '</section>'
 
-parts = re.findall(r'<section class="new-slide.*?</section>', (ROOT/'deck/narrativa.html').read_text(), flags=re.S)
+parts = re.findall(r'<section class="new-slide.*?</section>', (ROOT/'deck/narrativa.html').read_text() + (ROOT/'deck/adiciones.html').read_text(), flags=re.S)
 custom = {int(re.search(r'data-page="(\d+)"',s)[1]):s.replace('class="new-slide ', 'class="canvas new-slide ',1) for s in parts}
-assert sorted(custom)==[5,9,12,13,14,15,16,17]
-original={1:1,2:2,3:3,4:4,6:5,7:6,8:7,10:9,11:11,18:14,19:16}
-sections=[recovered(original[n],n) if n in original else custom[n] for n in range(1,20)]
+assert sorted(custom)==[5,9,10,11,14,15,16,17,18,19,20]
+original={1:1,2:2,3:3,4:4,6:5,7:6,8:7,12:9,13:11,21:14,22:16}
+sections=[recovered(original[n],n) if n in original else custom[n] for n in range(1,TOTAL+1)]
 wrapped=''.join(f'<div class="slide" id="slide-{i:02}"><div class="frame">{s}</div></div>' for i,s in enumerate(sections,1))
 fontcss=(ROOT/'deck/fonts.css').read_text()
 base=(ROOT/'.agents/skills/html-slides/assets/viewport-base.css').read_text()
@@ -44,4 +49,4 @@ script=(ROOT/'deck/navigation.js').read_text()
 doc=f'<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI PlayGrounds</title><style>{fontcss}\n{base}\n{css}</style></head><body><div>{wrapped}</div><nav class="controls" aria-label="Navegación"><button id="prev" aria-label="Anterior">←</button><button id="next" aria-label="Siguiente">→</button><button id="full" aria-label="Pantalla completa">⛶</button></nav><script>{script}</script></body></html>'
 (ROOT/'output').mkdir(exist_ok=True)
 (ROOT/'output/deck.html').write_text(doc)
-print('19 diapositivas generadas')
+print(f'{TOTAL} diapositivas generadas')

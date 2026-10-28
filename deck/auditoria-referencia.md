@@ -40,4 +40,4 @@ Las páginas usan negro, blanco cálido y acentos Halo, menta y lima; se observa
 
 ## Resultado posterior
 
-La reconstrucción inicial fue ampliada posteriormente a una narrativa de 19 diapositivas; el generador vigente es `deck/build.py` y la especificación actual está en `deck/deck-spec.md`. Las fuentes anteriores se han archivado en `archive/legacy-20/` y `archive/legacy-24/`.
+La reconstrucción inicial fue ampliada posteriormente; el generador vigente es `deck/build.py` y la especificación actual de 22 diapositivas está en `deck/deck-spec.md`. Las fuentes anteriores se han archivado en `archive/legacy-20/`, `archive/legacy-24/` y el historial Git.
