@@ -21,7 +21,7 @@ with tempfile.TemporaryDirectory(prefix='aipg-compare-') as tmp:
         browser=Image.open(OUT/f'screenshots/slide-{n:02}.png').convert('RGB').resize((960,540),Image.Resampling.LANCZOS)
         final=Image.open(tmp/f'final-{n:02}.png').convert('RGB')
         row={'slide':n,'browser_vs_pdf_mae_percent':mae(browser,final)}
-        original={1:1,2:2,3:3,4:4,6:5,7:6,8:7,10:9,11:11,12:14,19:16}
+        original={1:1,2:2,3:3,4:4,6:5,7:6,8:7,10:9,11:11,18:14,19:16}
         if n in original:
             ref=original[n]
             original=Image.open(tmp/f'ref-{ref:02}.png').convert('RGB')

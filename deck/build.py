@@ -33,8 +33,8 @@ def recovered(n, final_number):
 
 parts = re.findall(r'<section class="new-slide.*?</section>', (ROOT/'deck/narrativa.html').read_text(), flags=re.S)
 custom = {int(re.search(r'data-page="(\d+)"',s)[1]):s.replace('class="new-slide ', 'class="canvas new-slide ',1) for s in parts}
-assert sorted(custom)==[5,9,13,14,15,16,17,18]
-original={1:1,2:2,3:3,4:4,6:5,7:6,8:7,10:9,11:11,12:14,19:16}
+assert sorted(custom)==[5,9,12,13,14,15,16,17]
+original={1:1,2:2,3:3,4:4,6:5,7:6,8:7,10:9,11:11,18:14,19:16}
 sections=[recovered(original[n],n) if n in original else custom[n] for n in range(1,20)]
 wrapped=''.join(f'<div class="slide" id="slide-{i:02}"><div class="frame">{s}</div></div>' for i,s in enumerate(sections,1))
 fontcss=(ROOT/'deck/fonts.css').read_text()

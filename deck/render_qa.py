@@ -19,8 +19,10 @@ with sync_playwright() as p:
     assert page.locator('.slide').count()==19
     for n in range(1,20):
         assert f'{n:02} / 19' in page.locator(f'#slide-{n:02}').inner_text()
-    assert [page.locator(f'#slide-{n:02} .mode span').inner_text() for n in range(14,19)] == ['MODALIDAD 01 / 03','MODALIDAD 02 / 03','MODALIDAD 02 / 03','MODALIDAD 02 / 03','MODALIDAD 03 / 03']
-    assert page.locator('#slide-14 .two-blocks article').count()==2
+    assert [page.locator(f'#slide-{n:02} .mode span').inner_text() for n in range(13,18)] == ['MODALIDAD 01 / 03','MODALIDAD 02 / 03','MODALIDAD 02 / 03','MODALIDAD 02 / 03','MODALIDAD 03 / 03']
+    assert page.locator('#slide-13 .two-blocks article').count()==2
+    assert 'Quiénes impulsan AI PlayGrounds.' in page.locator('#slide-18').inner_text()
+    assert 'Seguimos construyendo.' in page.locator('#slide-19').inner_text()
     assert 'Interés' not in page.locator('body').inner_text() or 'Exploración' not in page.locator('body').inner_text()
     for n in range(1,20):
         page.evaluate('(n)=>deck.goTo(n)',n)
@@ -46,12 +48,12 @@ with sync_playwright() as p:
             data=page.evaluate('''() => {const c=document.querySelectorAll('.canvas')[deck.current-1],r=c.getBoundingClientRect();let bad=[];const walker=document.createTreeWalker(c,NodeFilter.SHOW_TEXT);while(walker.nextNode()){const t=walker.currentNode;if(!t.textContent.trim()||t.parentElement.closest('svg'))continue;let range=document.createRange();range.selectNodeContents(t);for(const b of range.getClientRects())if(b.left<r.left-1||b.right>r.right+1||b.top<r.top-1||b.bottom>r.bottom+1)bad.push(t.textContent.trim().slice(0,80));}return bad}''')
             if data: issues.append({'slide':n,'viewport':[w,h],'outside':data})
     overlaps=[]
-    for n in [5,9,13,14,15,16,17,18]:
+    for n in [5,9,12,13,14,15,16,17]:
         page.evaluate('(n)=>deck.goTo(n)',n)
         page.wait_for_timeout(40)
         pairs=page.evaluate('''() => {const s=document.querySelectorAll('.slide')[deck.current-1],w=document.createTreeWalker(s,NodeFilter.SHOW_TEXT),a=[];while(w.nextNode()){let t=w.currentNode;if(!t.textContent.trim())continue;let r=document.createRange();r.selectNodeContents(t);for(let b of r.getClientRects())a.push({node:t,text:t.textContent.trim().slice(0,60),x:b.x,y:b.y,r:b.right,b:b.bottom});}let out=[];for(let i=0;i<a.length;i++)for(let j=i+1;j<a.length;j++){let x=a[i],y=a[j];if(x.node!==y.node&&Math.min(x.r,y.r)-Math.max(x.x,y.x)>2&&Math.min(x.b,y.b)-Math.max(x.y,y.y)>2)out.push([x.text,y.text]);}return out}''')
         if pairs: overlaps.append({'slide':n,'pairs':pairs})
-    source_copy = {n:page.locator(f'#slide-{n:02} main p:not(:has(b)), #slide-{n:02} main h1, #slide-{n:02} main h2').all_text_contents() for n in [5,9,13,14,15,16,17,18]}
+    source_copy = {n:page.locator(f'#slide-{n:02} main p:not(:has(b)), #slide-{n:02} main h1, #slide-{n:02} main h2').all_text_contents() for n in [5,9,12,13,14,15,16,17]}
     page.emulate_media(media='print',reduced_motion='reduce')
     page.pdf(path=str(OUT/'deck.pdf'),width='1152px',height='648px',print_background=True,prefer_css_page_size=True)
     nojs=browser.new_context(java_script_enabled=False,viewport={'width':1920,'height':1080})

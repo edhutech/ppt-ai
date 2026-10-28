@@ -1,24 +1,19 @@
-# QA — AI PlayGrounds, 19 diapositivas
+# QA — Reubicación de la diapositiva de equipo
 
-## Resultado y revisión visual
+## Resultado
 
-Se generaron el HTML autocontenido, el PDF y las capturas 01–19. Se revisaron las 19 capturas a 1920 × 1080 y la composición del PDF mediante una hoja de contacto renderizada. Se verificaron numeración, pies, jerarquía, contraste, espaciados e indicadores de modalidad. La página de AI Labs no está presente; la participación comunitaria tiene dos bloques. La slide 05 distingue el agregado de eventos organizados de los tres eventos identificados como coorganizados.
+El HTML y el PDF contienen 19 diapositivas. «Quiénes impulsan AI PlayGrounds» pasó de la posición 12 a la 18; el cierre permanece en la 19. Las anteriores 13–18 ocupan ahora las posiciones 12–17. No se añadieron ni eliminaron diapositivas.
 
-En la primera pasada, una línea de AI Academy cruzaba el separador y las condiciones de la slide 18 se acercaban al pie. Se ajustaron y se repitieron la generación y las pruebas. Los resultados de las pruebas están en `qa-results.json`.
+## Validaciones ejecutadas
 
-## Pruebas ejecutadas
+- Se comparó el texto de las 19 diapositivas con el commit anterior `cb8387a`, siguiendo la nueva correspondencia y excluyendo únicamente el contador: todas coinciden.
+- Se compararon las capturas a 1920 × 1080 con las del mismo commit. En las diapositivas reubicadas, incluida la nueva 18, los píxeles fuera de la zona del contador son idénticos. La slide 19 es idéntica. Las slides 01–11 son idénticas salvo nueve píxeles en una línea de la slide 08, diferencia mínima de rasterización sin cambio de contenido ni diseño. Detalle y correspondencias: `qa-reorder.json`; se puede repetir con `python deck/compare_reorder.py cb8387a`.
+- Numeración consecutiva 01 / 19 a 19 / 19 e indicadores de modalidad en slides 13–17 comprobados. La participación comunitaria conserva sus dos bloques.
+- Sin texto detectado fuera del lienzo a 1920 × 1080, 1366 × 768 y 1280 × 720. La prueba de intersecciones no detectó superposiciones entre textos distintos en las composiciones editables.
+- Navegación por teclado, límites, pantalla completa en Chromium, movimiento reducido y presencia del contenido sin JavaScript comprobados. No se observaron errores JavaScript ni solicitudes HTTP externas.
+- PDF de 19 páginas con texto extraíble; títulos y párrafos sin formato interno de las composiciones editables cotejados con su exportación. Resultados: `qa-results.json`.
+- `qa-comparison.json` contiene la correspondencia actualizada con el PDF de referencia y compara las capturas con el PDF final.
 
-- Exactamente 19 diapositivas, numeradas 01 / 19 a 19 / 19; PDF de 19 páginas y texto seleccionable, comprobado con `pdfinfo` y `pdftotext`.
-- Los títulos y párrafos sin formato interno de las diapositivas nuevas se cotejaron con el texto exportado del PDF. Se verificó individualmente el contenido visual de los ejemplos y las condiciones.
-- Sin texto detectado fuera del lienzo a 1920 × 1080, 1366 × 768 y 1280 × 720; la prueba de intersecciones no detectó superposiciones entre textos distintos en las ocho composiciones nuevas.
-- Indicadores 01/03, 02/03 y 03/03 comprobados en las slides 14–18; slide 14 con dos bloques.
-- Flechas, espacio, Page Up/Down, Home/End y límites: comprobados. Se entró y salió de pantalla completa en Chromium sin interfaz.
-- Movimiento reducido activado durante las pruebas; no hay animaciones de entrada que oculten contenido. También se comprobó que los 19 elementos y el cierre siguen presentes sin JavaScript.
-- Sin errores JavaScript ni solicitudes HTTP externas observadas. Fuentes y gráficos están integrados en el HTML.
-- Se eliminaron las capturas obsoletas 20–24. El resultado es reproducible con los comandos del `README.md`.
+## Limitaciones
 
-## Comparación y limitaciones
-
-`qa-comparison.json` compara las diapositivas recuperadas con las páginas correspondientes del PDF original y las 19 capturas con el PDF exportado, ambas rasterizadas a 960 × 540. Las diferencias incluyen antialiasing, texto HTML reposicionado, numeración y ajustes editoriales intencionales; el error medio por canal no demuestra equivalencia perceptual exacta.
-
-Las diapositivas recuperadas utilizan líneas de texto HTML posicionadas sobre trazados SVG. El texto sigue siendo seleccionable y editable desde JSON, pero cambiar su longitud puede exigir ajustar posición o diseño. El análisis automático de superposición cubre las composiciones nuevas, no todos los trazados SVG. No se ha probado el gesto táctil en un dispositivo físico ni la lectura en proyectores concretos.
+La prueba automática de superposiciones cubre las composiciones HTML editables, no todos los trazados SVG. El gesto táctil no se ha probado en un dispositivo físico. El texto recuperado del PDF permanece seleccionable y editable, pero cambios futuros de longitud pueden requerir ajustes de posición.

@@ -63,33 +63,33 @@
   },
   {
     "slide": 12,
-    "browser_vs_pdf_mae_percent": 1.065,
-    "reference_page": 14,
-    "browser_vs_reference_mae_percent": 2.276
-  },
-  {
-    "slide": 13,
     "browser_vs_pdf_mae_percent": 1.848
   },
   {
-    "slide": 14,
+    "slide": 13,
     "browser_vs_pdf_mae_percent": 1.382
   },
   {
-    "slide": 15,
-    "browser_vs_pdf_mae_percent": 1.596
+    "slide": 14,
+    "browser_vs_pdf_mae_percent": 1.595
   },
   {
-    "slide": 16,
+    "slide": 15,
     "browser_vs_pdf_mae_percent": 1.366
   },
   {
-    "slide": 17,
+    "slide": 16,
     "browser_vs_pdf_mae_percent": 1.622
   },
   {
+    "slide": 17,
+    "browser_vs_pdf_mae_percent": 1.171
+  },
+  {
     "slide": 18,
-    "browser_vs_pdf_mae_percent": 1.172
+    "browser_vs_pdf_mae_percent": 1.065,
+    "reference_page": 14,
+    "browser_vs_reference_mae_percent": 2.276
   },
   {
     "slide": 19,
